@@ -23,6 +23,21 @@
 			<form id="browse-form">
 				<select class="form-control select select-primary" data-toggle="select" style="width:100%;" required>
             	
+            	<option value="">-- Please select a Health Provider --</option>
+
+            	<option value="Health Provider 1">Health Provider 1</option>
+            	<option value="Health Provider 2">Health Provider 2</option>
+            	<option value="Health Provider 3">Health Provider 3</option>
+            	<option value="Health Provider 4">Health Provider 4</option>
+            		
+            
+            
+          </select>
+
+          <p>&emsp;</p>
+
+				<select class="form-control select select-primary" data-toggle="select" style="width:100%;" required>
+            	
             	<option value="">-- Please select an option --</option>
 
             	<option value="Aggregate Report">Aggregate Report</option>
@@ -75,11 +90,12 @@ e.preventDefault();
 
 // });
 
-window.open('./sample.pdf');
+window.open('./sample.xlsx');
 
 });
 
 	       $('[data-toggle="select"]').select2();
+
 
 //	$.backstretch("./bg.jpg");
 

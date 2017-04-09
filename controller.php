@@ -12,7 +12,7 @@ if( isset($_SESSION['id']) ){
 	if( basename($_SERVER['PHP_SELF']) == 'index.php' ){
 
 		if($_SERVER['userdata']['type'] == 0 ){
-			header('Location:./browse.php');
+			header('Location:./upload.php');
 		}else{
 			header('Location:./upload.php');
 		}
@@ -32,8 +32,8 @@ if( isset($_SESSION['id']) ){
  
 if( isset($_SESSION['id']) ){
 if( $_SESSION['userdata']['type'] == 0 ){
-	if( basename($_SERVER['PHP_SELF']) != 'browse.php' ){
-		header('Location:./browse.php');
+	if( basename($_SERVER['PHP_SELF']) != 'upload.php' ){
+		header('Location:./upload.php');
 	}
 }
 

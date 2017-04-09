@@ -127,13 +127,23 @@
 				Create Date
 			</td>
 			<td colspan="2">
-								<input type="text" class="form-control" placeholder="Enter data here"  required/>
+								<input type="text" class="form-control datepicker" placeholder="Enter data here"  required readonly="" />
 			</td>
 		</tr>
 
 		<tr>
 			<td>
 				Create Time
+			</td>
+			<td colspan="2">
+								<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+
+		<tr>
+			<td>
+				Created by Tool
 			</td>
 			<td colspan="2">
 								<input type="text" class="form-control" placeholder="Enter data here"  required/>
@@ -211,7 +221,7 @@
 				Birthdate 
 			</td>
 			<td colspan="2">
-				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+				<input type="text" class="form-control datepicker" placeholder="Enter data here"  required readonly="" />
 			</td>
 		</tr>
 
@@ -220,7 +230,11 @@
 				Sex
 			</td>
 			<td colspan="2">
-				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+				<select name="" id="" required data-toggle="select" class="ddown">
+					<option value="">-Select One-</option>
+					<option value="M">Male</option>
+					<option value="F">Female</option>
+				</select>
 			</td>
 		</tr>
 
@@ -261,7 +275,16 @@
 				Measure Set
 			</td>
 			<td colspan="2">
-				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+				
+				<select class="ddown" name="measure" data-toggle="select" required>
+				
+
+				            <option value="TOB">TOB</option>
+				            <option value="MAT-4"> MAT-4 </option>
+
+				            
+				</select>
+
 			</td>
 		</tr>
 
@@ -270,7 +293,7 @@
 				Admit Date
 			</td>
 			<td colspan="2">
-				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+				<input type="text" class="form-control datepicker" placeholder="Enter data here"  required readonly="" />
 			</td>
 		</tr>
 
@@ -279,7 +302,7 @@
 				Discharge Date
 			</td>
 			<td colspan="2">
-				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+				<input type="text" class="form-control datepicker" placeholder="Enter data here"  required/>
 			</td>
 		</tr>
 
@@ -398,6 +421,7 @@ $(document).on('click' , '.remove-row' , function(e){
 	});
 
 	      $('[data-toggle="select"]').select2();
+	      $('.datepicker').datepicker();
 	  });
 //	$.backstretch("./bg.jpg");
 </script>

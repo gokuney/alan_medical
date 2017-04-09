@@ -4,7 +4,7 @@
 
 	<div class="row">
 		<div class="col-xs-12 login-wrapper">
-			<h2>LOGIN</h2>
+			<h2 class="text-info">LOGIN</h2>
 		</div>
 	</div>
 
@@ -29,7 +29,7 @@
 					</div>
 
 					<div class="form-group">
-						<input type="submit" value="Login" class="btn btn-primary btn-block" />
+						<input type="submit" value="Login" class="btn btn-warning btn-block" />
 						<input type="hidden" name="intent" value="login" / >
 					</div>
 
