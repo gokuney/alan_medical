@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<submission action-code="ADD" data="CLINICAL" type="HOSPITAL" version="3.0">
+  <file-audit-data>
+    <create-date>02-28-2010</create-date>
+    <create-time>14:28</create-time>
+    <version>1.0</version>
+    <create-by>jsmith</create-by>
+  </file-audit-data>
+  <provider>
+    <provider-id>12345zyxwv</provider-id>
+    <hcoid>221063</hcoid>
+    <patient>
+      <first-name>Jane</first-name>
+      <last-name>Smith</last-name>
+      <birthdate>03-01-1972</birthdate>
+      <sex>F</sex>
+      <race>1</race>
+      <ethnic>N</ethnic>
+      <postal-code>01757</postal-code>
+      <episode-of-care measure-set="MAT-4">
+        <admit-date>01-10-2016</admit-date>
+        <discharge-date>03-13-2016</discharge-date>
+        <vendor-tracking-id>675285</vendor-tracking-id>
+        <patient-id>98754321280</patient-id>
+        <detail answer-code="O208" question-cd="OTHRDX#" row-number="0"/>
+        <detail answer-code="10D00Z0" question-cd="PRINPX" row-number="0"/>
+        <detail answer-code="0UT90ZZ" question-cd="OTHRPX#" row-number="0"/>
+        <detail answer-code="0" question-cd="NUMPLB" row-number="0"/>
+        <detail answer-code="38" question-cd="GESTAGE" row-number="0"/>
+        <detail answer-code="Z370" question-cd="PRINDX" row-number="0"/>
+        <detail answer-code="N" question-cd="CLNCLTRIAL" row-number="0"/>
+        <detail answer-code="1" question-cd="DISCHGDISP" row-number="0"/>
+        <detail answer-code="AMERCN" question-cd="ETHNICCODE" row-number="0"/>
+        <detail answer-code="01-10-2016" question-cd="OTHRPX#DT" row-number="0"/>
+        <detail answer-code="103" question-cd="PMTSRCE" row-number="0"/>
+        <detail answer-code="01-10-2016" question-cd="PRINPXDATE" row-number="0"/>
+        <detail answer-code="R5" question-cd="MHRACE" row-number="0"/>
+        <detail answer-code="N" question-cd="SAMPLE" row-number="0"/>
+        <detail answer-code="I2BGF561X" question-cd="HOSPBILL#" row-number="0"/>
+        <detail answer-code="1857854701" question-cd="MHRIDNO" row-number="0"/>
+        <detail answer-code="Test Hospital" question-cd="PROVNAME" row-number="0"/>
+      </episode-of-care>
+    </patient>
+  </provider>
+</submission>

@@ -1,0 +1,273 @@
+	
+	<table width="100%" border="2">
+		
+		<tr>
+			<td colspan="3" align="center">
+				Attributes
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Action Code
+			</td>
+			<td colspan="2">
+				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Data
+			</td>
+			<td colspan="2">
+								<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Type
+			</td>
+			<td colspan="2">
+								<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Version
+			</td>
+			<td colspan="2">
+								<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="3" align="center">
+				File Audit Data
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Create Date
+			</td>
+			<td colspan="2">
+								<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Create Time
+			</td>
+			<td colspan="2">
+								<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Version
+			</td>
+			<td colspan="2">
+				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Created By
+			</td>
+			<td colspan="2">
+				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="3" align="center">
+				Provider
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Provider ID
+			</td>
+			<td colspan="2">
+				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				HCOID
+			</td>
+			<td colspan="2">
+				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="3" align="center">
+				Patient
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				First Name
+			</td>
+			<td colspan="2">
+				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Last Name
+			</td>
+			<td colspan="2">
+				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Birthdate 
+			</td>
+			<td colspan="2">
+				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Sex
+			</td>
+			<td colspan="2">
+				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Race
+			</td>
+			<td colspan="2">
+				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Ethnic
+			</td>
+			<td colspan="2">
+				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Postal Code
+			</td>
+			<td colspan="2">
+				{{ provider.patient.postal-code }}
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="3" align="center">
+				Episode of care
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Measure Set
+			</td>
+			<td colspan="2">
+				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Admit Date
+			</td>
+			<td colspan="2">
+				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Discharge Date
+			</td>
+			<td colspan="2">
+				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Vendor Tracking ID
+			</td>
+			<td colspan="2">
+				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Patient ID
+			</td>
+			<td colspan="2">
+								<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="3" align="center">
+				Patient Details
+			</td>
+		</tr>
+
+		<tr>
+			<th>
+				Answer Code
+			</th>
+			
+			<th>
+				Question CD
+			</th>
+
+			<th>
+				Row Number
+			</th>
+
+		</tr>
+
+
+<!-- Multiplier -->
+		<tr>
+			<td>
+				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+			<td>
+				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+
+			<td>
+				<input type="text" class="form-control" placeholder="Enter data here"  required/>
+			</td>
+		</tr>
+<!-- End Multiplier -->
+
+	</table>
+	
+	
+
+
+	
